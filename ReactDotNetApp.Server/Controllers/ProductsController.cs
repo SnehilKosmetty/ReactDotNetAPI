@@ -54,7 +54,7 @@ namespace ReactDotNetApp.Server.Controllers
             existingProduct.Price = product.Price;
             existingProduct.Category = product.Category;
             existingProduct.InStock = product.InStock;
-
+         
             return NoContent();
         }
 
